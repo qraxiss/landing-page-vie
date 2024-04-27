@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "image1": "/img/intro/1.png",
+  "image2": "/img/intro/2.png",
+  "image3": "/img/intro/3.png",
+  "smallTitle": "About Us",
+  "title": {
+    "first": "One-Stop Merch Solution",
+    "second": "For Web3 Brands",
+    "third": "All Powered By Blockchain Tech"
+  },
+  "content": "Our 'Merchandizing as a Service' provides a complete solution that includes everything from design, production, shipment, customer service, marketing to community engagement. This allows you to focus on your core tasks or simply monitor sales and revenue while we handle the rest.",
+  "features": [
+    {
+      "id": 1,
+      "icon": "gleam",
+      "name": { "first": "Pixel", "second": "Perfect" },
+      "wowDelay": ".3s"
+    },
+    {
+      "id": 2,
+      "icon": "paint-bucket",
+      "name": { "first": "Creative", "second": "Design" },
+      "wowDelay": ".5s"
+    },
+    {
+      "id": 3,
+      "icon": "medal",
+      "name": { "first": "Heigh", "second": "Perfomance" },
+      "wowDelay": ".8s"
+    }
+  ]
+}

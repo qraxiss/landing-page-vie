@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "stylish",
+    "secTex": "T-Shirt",
+    "image": "/img/portfolio/metro/tshirt.png"
+  },
+  {
+    "id": 2,
+    "title": "cozy",
+    "secTex": "Sweatshirt",
+    "image": "/img/portfolio/metro/sweat.png"
+  },
+  {
+    "id": 3,
+    "title": "trendy",
+    "secTex": "Hoodies",
+    "image": "/img/portfolio/metro/hoodie.png"
+  },
+  {
+    "id": 4,
+    "title": "chic",
+    "secTex": "Hats",
+    "image": "/img/portfolio/metro/hat.png"
+  },
+  {
+    "id": 5,
+    "title": "natural",
+    "secTex": "Eco-Friendly",
+    "image": "/img/portfolio/metro/eco.png"
+  }
+]
