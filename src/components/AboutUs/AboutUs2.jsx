@@ -6,12 +6,12 @@ import AboutUs2Date from "@/data/sections/about-us2.json";
 
 const AboutUs2 = () => {
   return (
-    <div className="about section-padding">
+    <div id="about" className="about section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
             <div className="img-mons sm-mb30">
-              <div className="row">
+              <div className="row" style={{scale: "110%", marginTop: "20px"}}>
                 <div className="col-md-5 cmd-padding valign">
                   <div className="img1 wow imago" data-wow-delay=".5s">
                     <img src={AboutUs2Date.image1} alt="" />
@@ -39,6 +39,7 @@ const AboutUs2 = () => {
               <div className="sub-title">
                 <h6>{AboutUs2Date.smallTitle}</h6>
               </div>
+              
               <Split>
                 <h3
                   className="words chars splitting main-title wow"
@@ -49,12 +50,14 @@ const AboutUs2 = () => {
                   <span className="last-title">{AboutUs2Date.title.third}</span>
                 </h3>
               </Split>
+              
               <Split>
                 <p className="words chars splitting wow txt aboutUs-content" data-splitting>
                   {AboutUs2Date.content}
                 </p>
               </Split>
               <div className="ftbox mt-30">
+              <h3 className="words chars splitting">For Who?</h3>
                 <ul>
                   {AboutUs2Date.features.map((feature) => (
                     <li
@@ -64,9 +67,10 @@ const AboutUs2 = () => {
                     >
                       <span
                         className={`icon color-font pe-7s-${feature.icon}`}
+                        style={{ fontSize: "40px" }}
                       ></span>
                       <h6>
-                        {feature.name.first} <br /> {feature.name.second}
+                        {feature.name.first} <br /> {feature.name.second} <br/> {feature.name.third}
                       </h6>
                       <div className="dots">
                         <span></span>

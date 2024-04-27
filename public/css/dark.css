@@ -3748,7 +3748,7 @@ span:hover {
 .about .img-mons .img1,
 .about .img-mons .img2,
 .about .img-mons .img3 {
-  height: 200px;
+  height: 278px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -4933,7 +4933,7 @@ span:hover {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-  max-width: 75px;
+  max-width: 120px;
   margin: auto;
 }
 

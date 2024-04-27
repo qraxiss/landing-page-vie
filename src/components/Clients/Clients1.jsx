@@ -9,7 +9,7 @@ function Clients({ theme }) {
   const second = ClientsData.slice(4, ClientsData.length);
 
   return (
-    <section className="clients section-padding">
+    <section id="partnership" className="clients section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 valign md-mb50">
@@ -51,11 +51,12 @@ function Clients({ theme }) {
                         )}
                         <Split>
                           <a
-                            href="#0"
+                            href={item.url}
+                            target="_blank"
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {item.urlName}
                           </a>
                         </Split>
                       </div>
@@ -95,17 +96,18 @@ function Clients({ theme }) {
                     >
                       <div className="img">
                         {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
+                          <img width={250} src={item.lightImage} alt="" />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img width={250} src={item.darkImage} alt="" />
                         )}
                         <Split>
                           <a
-                            href="#0"
+                            href={item.url}
+                            target="_blank"
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {item.urlName}
                           </a>
                         </Split>
                       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 //= Page components
 import Loading from "@/components/Common/Loader";
-import Navbar from "@/components/Common/Navbar";
+import Navbar from "@/components/Common/HomeNavbar";
 import Header from "@/components/Headers/Header4";
 import Services from "@/components/Services/Services3";
 import Clients from "@/components/Clients/Clients1";

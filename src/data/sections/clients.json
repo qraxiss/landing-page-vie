@@ -1,50 +1,59 @@
 [
-    {
-        "id": 1,
-        "lightImage": "/img/clients/brands/light/01.png",
-        "darkImage": "/img/clients/brands/dark/01.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 2,
-        "lightImage": "/img/clients/brands/light/02.png",
-        "darkImage": "/img/clients/brands/dark/02.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 3,
-        "lightImage": "/img/clients/brands/light/03.png",
-        "darkImage": "/img/clients/brands/dark/03.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 4,
-        "lightImage": "/img/clients/brands/light/04.png",
-        "darkImage": "/img/clients/brands/dark/04.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 5,
-        "lightImage": "/img/clients/brands/light/05.png",
-        "darkImage": "/img/clients/brands/dark/05.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 6,
-        "lightImage": "/img/clients/brands/light/06.png",
-        "darkImage": "/img/clients/brands/dark/06.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 7,
-        "lightImage": "/img/clients/brands/light/07.png",
-        "darkImage": "/img/clients/brands/dark/07.png",
-        "url": "www.Vie.com"
-    },
-    {
-        "id": 8,
-        "lightImage": "/img/clients/brands/light/08.png",
-        "darkImage": "/img/clients/brands/dark/08.png",
-        "url": "www.Vie.com"
-    }
+  {
+    "id": 1,
+    "lightImage": "/img/clients/brand/light/01.png",
+    "darkImage": "/img/clients/brand/dark/01.png",
+    "url": "https://foundershub.startups.microsoft.com/signup",
+    "urlName": "microsoft.com"
+    
+  },
+  {
+    "id": 2,
+    "lightImage": "/img/clients/brand/light/02.png",
+    "darkImage": "/img/clients/brand/dark/02.png",
+    "url": "https://www.bnbchain.org/",
+    "urlName": "bnbchain.com"
+  },
+  {
+    "id": 3,
+    "lightImage": "/img/clients/brand/light/03.png",
+    "darkImage": "/img/clients/brand/dark/03.png",
+    "url": "https://okx.com/xlayer",
+    "urlName": "okx-xlayer.com"
+  },
+  {
+    "id": 4,
+    "lightImage": "/img/clients/brand/light/04.png",
+    "darkImage": "/img/clients/brand/dark/04.png",
+    "url": "https://www.zetachain.com/ecosystem",
+    "urlName": "zetachain.com"
+  },
+  {
+    "id": 5,
+    "lightImage": "/img/clients/brand/light/05.png",
+    "darkImage": "/img/clients/brand/dark/05.png",
+    "url": "https://skale.space/ecosystem",
+    "urlName": "skale.space"
+  },
+  {
+    "id": 6,
+    "lightImage": "/img/clients/brand/light/06.png",
+    "darkImage": "/img/clients/brand/dark/06.png",
+    "url": "https://www.alphacapital.financial/",
+    "urlName": "alphacapital.financial"
+  },
+  {
+    "id": 7,
+    "lightImage": "/img/clients/brand/light/07.png",
+    "darkImage": "/img/clients/brand/dark/07.png",
+    "url": "https://skynet.certik.com/projects/shopcek",
+    "urlName": "skynet.certik.com"
+  },
+  {
+    "id": 8,
+    "lightImage": "/img/clients/brand/light/08.png",
+    "darkImage": "/img/clients/brand/dark/08.png",
+    "url": "https://www.okx.com/web3",
+    "urlName": "okx-web3.com"
+  }
 ]

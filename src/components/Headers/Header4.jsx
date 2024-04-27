@@ -8,10 +8,13 @@ const Header4 = ({ sliderRef }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">Web3 Merch</span> <br />
-                Bringing
-                <br /> Blockchain Fashion
-                <span className="color-font"> to the Streets</span>
+                <span className="color-font">Web3 Merch</span>
+                <br />
+                <span className="w-900">
+
+                  Brings <br /> Blockchain Fashion
+                </span>
+                <span className="color-font"> to Streets</span>
               </h1>
             </div>
           </div>

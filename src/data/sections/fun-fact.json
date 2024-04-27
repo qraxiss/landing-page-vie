@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "icon": "pe-7s-smile",
-    "content": "Simulated Sales",
+    "icon": "pe-7s-graph2",
+    "content": "Simulated Sales in USD",
     "value": "3500000"
   },
   {
     "id": 2,
-    "icon": "pe-7s-portfolio",
+    "icon": "pe-7s-smile",
     "content": "User Registrations",
     "value": "15000"
   },
   {
     "id": 3,
-    "icon": "pe-7s-medal",
+    "icon": "pe-7s-check",
     "content": "Transactions Complete",
     "value": "35000"
   }

@@ -2,13 +2,13 @@
   {
     "id": 1,
     "title": "stylish",
-    "secTex": "T-Shirt",
+    "secTex": "T-Shirts",
     "image": "/img/portfolio/metro/tshirt.png"
   },
   {
     "id": 2,
     "title": "cozy",
-    "secTex": "Sweatshirt",
+    "secTex": "Sweatshirts",
     "image": "/img/portfolio/metro/sweat.png"
   },
   {

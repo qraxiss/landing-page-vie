@@ -10,7 +10,7 @@ function Services3() {
   }, []);
 
   return (
-    <section className="feat sub-bg section-padding">
+    <section id="features" className="feat sub-bg section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10">
@@ -34,16 +34,16 @@ function Services3() {
                 Exceptional <br /> UI/UX
               </h5>
               <p>
-                Crypto payments and NFT receipts for each purchase ensure
-                transparency.
+                Creating more meaningful interaction with superior UI/UX Design
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 items active md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-ios-bolt-outline"></i>
+                <i className="ion-cube"></i>
               </span>
+
               <h5>Blockchain Integration</h5>
               <p>
                 Crypto payments and NFT receipts for each purchase ensure
@@ -54,7 +54,7 @@ function Services3() {
           <div className="col-lg-3 col-md-6 items sm-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
-                <i className="ion-cube"></i>
+                <i className=" ion-ios-bolt-outline"></i>
               </span>
               <h5>
                 Gamified <br /> Loyalty
