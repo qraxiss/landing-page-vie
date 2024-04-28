@@ -6,7 +6,7 @@ const Blogs2 = () => {
     <>
       <div className="line bottom right blog-line"></div>
 
-      <section className="blog-list section-padding sub-bg">
+      <section id="blog" className="blog-list section-padding sub-bg">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
