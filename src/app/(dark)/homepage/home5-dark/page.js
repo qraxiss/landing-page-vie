@@ -1,8 +1,6 @@
 import React from "react";
-//= Page components
 import Loading from "@/components/Common/Loader";
 import Navbar from "@/components/Common/HomeNavbar";
-import Header from "@/components/Headers/Header4";
 import Services from "@/components/Services/Services3";
 import Clients from "@/components/Clients/Clients1";
 import Footer from "@/components/Common/HomeFooter";
@@ -12,9 +10,21 @@ import Numbers from "@/components/Numbers/Numbers1";
 import Blogs from "@/components/Blogs/Blogs2";
 import Video from "@/components/Others/Video";
 import CallToAction from "@/components/Others/CallToAction";
+import generateStylesheetObject from '@/common/generateStylesheetsObject';
+import Header4 from "@/components/Headers/Header4";
 
 export const metadata = {
   title: "Shopcek",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    other: generateStylesheetObject([
+      'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap',
+      'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap',
+      'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap',
+      '/css/dark.css',
+    ])
+  }
 };
 
 export default function Home5() {
@@ -22,7 +32,7 @@ export default function Home5() {
     <>
       <Loading />
       <Navbar />
-      <Header />
+      <Header4 />
       <AboutUs />
       <Services />
       <Works />

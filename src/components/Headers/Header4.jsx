@@ -1,6 +1,15 @@
-import React from "react";
+"use client";
+import particlesConfig from "@/config/particle-config";
+import particlesBlackConfig from "@/config/pr-s-black";
+import React, { useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadSlim } from "tsparticles-slim";
 
-const Header4 = ({ sliderRef }) => {
+const Header4 = ({ sliderRef, blackStar }) => {
+  const particlesInit = useCallback(async (engine) => {
+    await loadSlim(engine);
+  }, []);
+
   return (
     <header ref={sliderRef} className="particles circle-bg valign">
       <div className="container">
@@ -20,6 +29,12 @@ const Header4 = ({ sliderRef }) => {
           </div>
         </div>
       </div>
+
+      <Particles
+        id="particles-js"
+        options={blackStar ? particlesBlackConfig : particlesConfig}
+        init={particlesInit}
+      />
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle two"></div>
