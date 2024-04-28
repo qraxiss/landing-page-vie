@@ -13,7 +13,7 @@ import MainContent from "@/components/Demos/MainContent";
 import Home5 from "./(dark)/homepage/home5-dark/page";
 
 export const metadata = {
-  title: "Vie - Preview",
+  title: "Shopcek",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
