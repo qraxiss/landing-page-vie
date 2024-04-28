@@ -5,7 +5,7 @@ import Navbar from "@/components/Common/HomeNavbar";
 import Header from "@/components/Headers/Header4";
 import Services from "@/components/Services/Services3";
 import Clients from "@/components/Clients/Clients1";
-import Footer from "@/components/Common/Footer";
+import Footer from "@/components/Common/HomeFooter";
 import AboutUs from "@/components/AboutUs/AboutUs2";
 import Works from "@/components/Works/Works1";
 import Numbers from "@/components/Numbers/Numbers1";
