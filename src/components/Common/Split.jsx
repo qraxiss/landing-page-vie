@@ -10,7 +10,7 @@ function Split({ children }) {
 
   function split() {
     if (target.current) {
-      Splitting({ target: target.current });
+      // Splitting({ target: target.current });
     }
   };
 

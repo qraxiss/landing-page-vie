@@ -11,7 +11,7 @@ const swiperOptions = {
   modules: [Autoplay, Navigation],
   navigation: {
     prevEl: ".swiper-button-prev",
-    nextEl: ".swiper-button-next",
+    nextEl: ".swiper-button-next"
   },
   slidesPerView: 2,
   centeredSlides: true,
@@ -19,27 +19,27 @@ const swiperOptions = {
   loop: false,
   autoplay: {
     delay: 2500,
-    disableOnInteraction: false,
+    disableOnInteraction: false
   },
   speed: 1000,
   breakpoints: {
     320: {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 0
     },
     640: {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 0
     },
     767: {
       slidesPerView: 1,
       spaceBetween: 0,
-      centeredSlides: false,
+      centeredSlides: false
     },
     991: {
-      slidesPerView: 2,
-    },
-  },
+      slidesPerView: 2
+    }
+  }
 };
 
 function Works1() {
@@ -62,7 +62,7 @@ function Works1() {
                       ></div>
                       <div className="cont">
                         <h6 className="color-font">
-                          <a href="#">Uniquely Styled</a>
+                          <a href="#">Uniquely Designed</a>
                         </h6>
                         <h4>
                           <Link href="/project-details2/project-details2-dark">

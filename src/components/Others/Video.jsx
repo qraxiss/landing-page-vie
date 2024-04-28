@@ -17,10 +17,10 @@ function Video() {
       style={{ backgroundImage: `url('/img/bg-vid.jpg')` }}
     >
       <ModalVideo
-        channel="vimeo"
+        channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="127203262"
+        videoId="YrChqODSxXw"
         onClose={() => setOpen(false)}
       />
       <a className="vid valign" href="#" onClick={openVideo}>

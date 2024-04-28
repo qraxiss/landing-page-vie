@@ -19,6 +19,7 @@
     "react-scroll": "^1.8.9",
     "react-tsparticles": "^2.12.2",
     "swiper": "^8.4.6",
+    "tsparticles-slim": "^2.12.0",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {

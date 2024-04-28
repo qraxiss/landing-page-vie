@@ -13,20 +13,20 @@
   "features": [
     {
       "id": 1,
-      "icon": "gleam",
-      "name": { "first": "Pixel", "second": "Perfect" },
+      "icon": "network",
+      "name": { "first": "For", "second": "Web3", "third": "Innovators" },
       "wowDelay": ".3s"
     },
     {
       "id": 2,
-      "icon": "paint-bucket",
-      "name": { "first": "Creative", "second": "Design" },
+      "icon": "star",
+      "name": { "first": "For", "second": "Web3","third": "Influencers" },
       "wowDelay": ".5s"
     },
     {
       "id": 3,
-      "icon": "medal",
-      "name": { "first": "Heigh", "second": "Perfomance" },
+      "icon": "users",
+      "name": { "first": "For", "second": "Web3", "third": "Enthusiasts" },
       "wowDelay": ".8s"
     }
   ]
