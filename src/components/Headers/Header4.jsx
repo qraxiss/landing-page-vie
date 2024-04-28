@@ -1,13 +1,27 @@
 "use client";
 import particlesConfig from "@/config/particle-config";
 import particlesBlackConfig from "@/config/pr-s-black";
-import React, { useCallback } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 const Header4 = ({ sliderRef, blackStar }) => {
+  const [scrollPosition, setScrollPosition] = useState(null);
   const particlesInit = useCallback(async (engine) => {
     await loadSlim(engine);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -20,7 +34,6 @@ const Header4 = ({ sliderRef, blackStar }) => {
                 <span className="color-font">Web3 Merch</span>
                 <br />
                 <span className="w-900">
-
                   Brings <br /> Blockchain Fashion
                 </span>
                 <span className="color-font"> to Streets</span>
@@ -30,11 +43,13 @@ const Header4 = ({ sliderRef, blackStar }) => {
         </div>
       </div>
 
-      <Particles
-        id="particles-js"
-        options={blackStar ? particlesBlackConfig : particlesConfig}
-        init={particlesInit}
-      />
+      {scrollPosition < 600 && (
+        <Particles
+          id="particles-js"
+          options={blackStar ? particlesBlackConfig : particlesConfig}
+          init={particlesInit}
+        />
+      )}
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle two"></div>
