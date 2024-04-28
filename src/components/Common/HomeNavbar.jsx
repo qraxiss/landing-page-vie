@@ -86,13 +86,23 @@ const HomeNavbar = ({ lr, theme }) => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`//shopcek.gitbook.io/`} target="_blank">
+              <a
+                className="nav-link"
+                href={`//shopcek.gitbook.io/`}
+                target="_blank"
+              >
                 Docs
                 {/* <span className="icon pe-7s-next-2 ml-1"></span> */}
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link color-font " href={`#launch`}>
+              <a
+                className="nav-link color-font "
+                href={`#launch`}
+                style={{
+                  fontWeight: "700",
+                }}
+              >
                 Launch App
               </a>
             </li>

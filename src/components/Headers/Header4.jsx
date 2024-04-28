@@ -31,12 +31,9 @@ const Header4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">Web3 Merch</span>
-                <br />
-                <span className="w-900">
-                  Brings <br /> Blockchain Fashion
-                </span>
-                <span className="color-font"> to Streets</span>
+                <span>Brings</span>
+                <span className="color-font w-900">Blockchain Fashion</span>
+                <span>to Streets</span>
               </h1>
             </div>
           </div>
