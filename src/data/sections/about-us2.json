@@ -14,19 +14,19 @@
     {
       "id": 1,
       "icon": "network",
-      "name": { "first": "For", "second": "Web3", "third": "Innovators" },
+      "name": { "first": "Web3", "second": "Innovators" },
       "wowDelay": ".3s"
     },
     {
       "id": 2,
       "icon": "star",
-      "name": { "first": "For", "second": "Web3","third": "Influencers" },
+      "name": { "first": "Web3", "second": "Influencers" },
       "wowDelay": ".5s"
     },
     {
       "id": 3,
       "icon": "users",
-      "name": { "first": "For", "second": "Web3", "third": "Enthusiasts" },
+      "name": { "first": "Web3", "second": "Enthusiasts" },
       "wowDelay": ".8s"
     }
   ]

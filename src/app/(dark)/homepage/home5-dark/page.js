@@ -11,7 +11,7 @@ import Blogs from "@/components/Blogs/Blogs2";
 import Video from "@/components/Others/Video";
 import CallToAction from "@/components/Others/CallToAction";
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
-import Header4 from "@/components/Headers/Header4";
+import Header from "@/components/Headers/HomeHeader";
 import MinimalArea from "@/components/Others/MinimalArea1";
 
 export const metadata = {
@@ -33,7 +33,7 @@ export default function Home5() {
     <>
       <Loading />
       <Navbar />
-      <Header4 />
+      <Header />
       <AboutUs />
       <MinimalArea />
       <Services />

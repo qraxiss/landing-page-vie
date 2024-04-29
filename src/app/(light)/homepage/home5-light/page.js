@@ -2,7 +2,7 @@ import React from 'react';
 //= Page components
 import Loading from '@/components/Common/Loader';
 import Navbar from '@/components/Common/Navbar';
-import Header from '@/components/Headers/Header4';
+import Header from '@/components/Headers/HomeHeader';
 import AboutUs from '@/components/AboutUs/AboutUs3';
 import Works from '@/components/Works/Works3';
 import Services from '@/components/Services/Services3';

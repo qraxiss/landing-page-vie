@@ -33,7 +33,7 @@ const Header4 = ({ sliderRef, blackStar }) => {
               <h1>
                 <span>Brings</span>
                 <span className="color-font w-900">Blockchain Fashion</span>
-                <span>to Streets</span>
+                <span>to Street</span>
               </h1>
             </div>
           </div>

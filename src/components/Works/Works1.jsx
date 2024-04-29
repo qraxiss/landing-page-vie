@@ -15,8 +15,8 @@ const swiperOptions = {
   },
   slidesPerView: 2,
   centeredSlides: true,
-  autoPlay: false,
-  loop: false,
+  autoPlay: true,
+  loop: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false

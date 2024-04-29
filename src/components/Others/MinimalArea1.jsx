@@ -23,11 +23,9 @@ function MinimalArea1() {
           </div>
           <div className="col-lg-6 valign">
             <div className="content pt-0">
-              <h4 className="wow color-font">B2C Platform Highlights</h4>
+              <h4 className="wow color-font">Crypto Shopping Simplified</h4>
               <p className="wow txt" data-splitting>
-                Discover exclusive items from top influencers and projects. Use
-                crypto for purchases and enjoy discounts, global shipping, and
-                24/7 support.
+              Personalize your shopping adventure and enjoy the simplicity of crypto transactions.
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">

@@ -7,7 +7,7 @@ import ContactForm from "@/components/Contact/ContactForm";
 import Footer from "@/components/Common/HomeFooter";
 
 export const metadata = {
-  title: "Vie - Contact Dark",
+  title: "Shopcek | Contact",
 };
 
 export default function ContactPage() {

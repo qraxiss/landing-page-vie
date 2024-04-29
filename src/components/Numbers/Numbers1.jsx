@@ -30,7 +30,7 @@ const Numbers = () => {
                 Testnet Achievements
               </h6>
               <h3 className="wow color-font">
-                We've rigorously tested <br /> everything for you.
+                We've tested <br /> everything for you.
               </h3>
             </div>
           </div>
