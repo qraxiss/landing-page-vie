@@ -141,11 +141,16 @@ function HomeFooter({ hideBGCOLOR }) {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="bottom-line-wrapper">
-          <div className="line bottom-footer-line" />
-        </div>
+          <div className="row">
+          <span
+              className="line center"
+              style={{
+                width: "79%",
+                position: "absolute",
+                marginLeft: 28,
+                margin: 24,
+              }}
+            />
 
         <div className="bottom-info">
           <div className="copyright">
@@ -156,6 +161,9 @@ function HomeFooter({ hideBGCOLOR }) {
             Developed for the transition of the next billion to crypto
           </div>
         </div>
+          </div>
+        </div>
+
       </footer>
       <footer className={`footer ${!hideBGCOLOR ? "sub-bg" : ""} mobile`}>
         <div className="container">

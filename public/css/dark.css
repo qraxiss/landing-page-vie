@@ -199,8 +199,8 @@ footer {
   .bottom-info {
     display: flex;
     justify-content: space-between;
-    width: 59.5%;
-    margin-left: 23.8em;
+    margin: 32px;
+    width: 100%;
   }
 
   .socials {
