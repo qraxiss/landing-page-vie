@@ -5,7 +5,7 @@ const icon = (social) => `/img/social/white/${social}.png`;
 function HomeFooter({ hideBGCOLOR }) {
   return (
     <div className="footer-wrapper">
-      <footer className={`footer ${!hideBGCOLOR ? "sub-bg" : ""}`}>
+      <footer className={`footer ${!hideBGCOLOR ? "sub-bg" : ""} desktop`}>
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -68,7 +68,8 @@ function HomeFooter({ hideBGCOLOR }) {
                       </td>
                       <td></td>
                       <td>
-                        <a href="#0">MEDIA KIT</a>
+                        <a href="https://drive.google.com/drive/folders/1cVDyVIY6XN5DtJ9WrjnrYfWU50jXrvYD?usp=drive_link"
+                        target="_blank">MEDIA KIT</a>
                       </td>
                       <td></td>
                       <td>
@@ -87,7 +88,8 @@ function HomeFooter({ hideBGCOLOR }) {
                         <td>FEATURES</td>
                       </a>
                       <td></td>
-                      <a href="#0">
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1/institutional/career"
+                        target="_blank">
                         <td>CAREER</td>
                       </a>
                     </tr>
@@ -96,7 +98,8 @@ function HomeFooter({ hideBGCOLOR }) {
                         <td>PARTNERSHIP</td>
                       </a>
                       <td></td>
-                      <a href="#0">
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/terms-and-conditions"
+                        target="_blank">
                         <td>TERMS OF SERVICE</td>
                       </a>
                     </tr>
@@ -105,7 +108,8 @@ function HomeFooter({ hideBGCOLOR }) {
                         <td>BLOGS</td>
                       </a>
                       <td></td>
-                      <a href="#0">
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/privacy-policy"
+                        target="_blank">
                         <td>PRIVACY POLICY</td>
                       </a>
                     </tr>
@@ -127,10 +131,10 @@ function HomeFooter({ hideBGCOLOR }) {
                 </table>
 
                 <div className="socials">
-                  <img src={icon("x")} alt="" />
-                  <img src={icon("dc")} alt="" />
-                  <img src={icon("md")} alt="" />
-                  <img src={icon("tg")} alt="" />
+                <a href="https://twitter.com/shopcek" target="_blank"><img src={icon("x")} alt="" /></a>
+              <a href="https://discord.gg/kBH3p8Xb6y" target="_blank"><img src={icon("dc")} alt="" /></a>
+              <a href="https://medium.com/shopcek" target="_blank"><img src={icon("md")} alt="" /></a>
+              <a href="https://t.me/shopcek" target="_blank"><img src={icon("tg")} alt="" /></a>
                 </div>
 
                 <img src="/img/ms-purple.png" alt="" className="microsoft" />
@@ -150,6 +154,157 @@ function HomeFooter({ hideBGCOLOR }) {
 
           <div className="info">
             Developed for the transition of the next billion to crypto
+          </div>
+        </div>
+      </footer>
+      <footer className={`footer ${!hideBGCOLOR ? "sub-bg" : ""} mobile`}>
+        <div className="container">
+          <div className="row">
+            <div className="footer-logo-mobile">
+              <img className="logo-icon" src="/img/logo-icon.svg" alt="" />
+              <img src="/img/logo-dark.png" alt="" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-8">
+              <table>
+                <thead>
+                  <tr>
+                    <th colSpan={3}>
+                      <span>MENU</span>
+                    </th>
+                    <th></th>
+                    <th>
+                      <span className="margin-left">MISC</span>
+                    </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td colSpan={3} className="color-font">
+                      <span
+                        className="line center"
+                        style={{
+                          width: "93%",
+                          position: "absolute",
+                          marginTop: 8,
+                        }}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={3}>
+                      <a href="#0" style={{marginTop: 16}}>ABOUT US</a>
+                    </td>
+                    <td></td>
+                    <td colSpan={3}>
+                      <a
+                        className="margin-left"
+                        style={{marginTop: 16}}
+                        href="https://drive.google.com/drive/folders/1cVDyVIY6XN5DtJ9WrjnrYfWU50jXrvYD?usp=drive_link"
+                        target="_blank"
+                      >
+                        MEDIA KIT
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={3}>
+                      <a href="#0">FEATURES</a>
+                    </td>
+                    <td></td>
+                    <td colSpan={3}>
+                      <a
+                        className="margin-left"
+                        href="https://shopcek.gitbook.io/shopcek-or-shpc-1/institutional/career"
+                        target="_blank"
+                      >
+                        CAREER
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={3}>
+                      <a href="#0">PARTNERSHIP</a>
+                    </td>
+                    <td></td>
+                    <td colSpan={3}>
+                      <a
+                        className="margin-left"
+                        href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/terms-and-conditions"
+                        target="_blank"
+                      >
+                        TERMS OF SERVICES
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={3}>
+                      <a href="#0">BLOGS</a>
+                    </td>
+                    <td></td>
+                    <td colSpan={3}>
+                      <a
+                        className="margin-left"
+                        href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/privacy-policy"
+                        target="_blank"
+                      >
+                        PRIVACY POLICY
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#0">DOCS</a> <br />
+                      <a href="#0">LAUNCH APP</a>
+                    </td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="row" style={{flexDirection: 'column', gap: 12}}>
+            <h4 className="mobile-info-subscribe">SUBSCRIBE TO OUR NEWSLETTER</h4>
+            <span
+              className="line center"
+              style={{
+                width: "93%",
+                position: "absolute",
+                margin: 16,
+              }}
+            />
+            <div className="mobile-subscribe-container">
+              <input type="text" placeholder="EMAIL" />
+              <a href="#0">
+                <button className="back-color">
+                  <span className="text">SUBSCRIBE</span>
+                </button>
+              </a>
+            </div>
+            <div className="socials-mobile-icon">
+              <a href="https://twitter.com/shopcek" target="_blank"><img src={icon("x")} alt="" /></a>
+              <a href="https://discord.gg/kBH3p8Xb6y" target="_blank"><img src={icon("dc")} alt="" /></a>
+              <a href="https://medium.com/shopcek" target="_blank"><img src={icon("md")} alt="" /></a>
+              <a href="https://t.me/shopcek" target="_blank"><img src={icon("tg")} alt="" /></a>
+            </div>
+            <div className="microsoft-image-container">
+              <img src="/img/ms-purple.png" alt="" width={100} />
+            </div>
+          </div>
+          <div className="row">
+            <span
+              className="line center"
+              style={{
+                width: "93%",
+                position: "absolute",
+                marginLeft: 16,
+              }}
+            />
+            <div className="mobile-info-copyright" >
+              Copyright 2024 SHOPCEK-All Rights Reserved
+            </div>
           </div>
         </div>
       </footer>
