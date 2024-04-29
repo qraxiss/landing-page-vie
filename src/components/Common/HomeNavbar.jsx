@@ -61,27 +61,27 @@ const HomeNavbar = ({ lr, theme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href={`#`}>
+              <a className="nav-link" href={`/`}>
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`#about`}>
+              <a className="nav-link" href={`/#about`}>
                 About Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`#features`}>
+              <a className="nav-link" href={`/#features`}>
                 Features
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`#partnership`}>
+              <a className="nav-link" href={`/#partnership`}>
                 Partnership
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`#blog`}>
+              <a className="nav-link" href={`/#blog`}>
                 Blog
               </a>
             </li>
@@ -92,13 +92,12 @@ const HomeNavbar = ({ lr, theme }) => {
                 target="_blank"
               >
                 Docs
-                {/* <span className="icon pe-7s-next-2 ml-1"></span> */}
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link color-font "
-                href={`#launch`}
+                href={`/request-demo`}
                 style={{
                   fontWeight: "700",
                 }}
