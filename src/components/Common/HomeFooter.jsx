@@ -114,7 +114,7 @@ function HomeFooter({ hideBGCOLOR }) {
                       </a>
                     </tr>
                     <tr>
-                      <a href="#0">
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1" target="_blank">
                         <td>DOCS</td>
                       </a>
                       <td></td>
@@ -264,7 +264,7 @@ function HomeFooter({ hideBGCOLOR }) {
                   </tr>
                   <tr>
                     <td>
-                      <a href="#0">DOCS</a> <br />
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1" target="_blank">DOCS</a> <br />
                       <a href="#0">LAUNCH APP</a>
                     </td>
                     <td></td>
