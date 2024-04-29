@@ -1,9 +1,30 @@
 'use client';
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 //= Static Data
 import contentHeaderData from "@/data/contact-header.json";
+import Particles from "react-tsparticles";
+import { loadSlim } from "tsparticles-slim";
+import particlesConfig from '@/config/particle-config';
 
 function ContactHeader() {
+  const [scrollPosition, setScrollPosition] = useState(null);
+  const particlesInit = useCallback(async (engine) => {
+    await loadSlim(engine);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   useEffect(() => {
     setTimeout(() => {
       if (document.querySelector("#particles-js canvas")) {
@@ -29,6 +50,13 @@ function ContactHeader() {
           </div>
         </div>
       </div>
+      {scrollPosition < 1500 && (
+        <Particles
+          id="particles-js"
+          options={particlesConfig}
+          init={particlesInit}
+        />
+      )}
       <div className="circle-color">
         <div className="gradient-circle"></div>
         <div className="gradient-circle two"></div>

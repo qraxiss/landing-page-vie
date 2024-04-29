@@ -46,10 +46,16 @@ function ContactForm({ theme }) {
                       required="required"
                     />
                   </div>
-                  {/* <div className="form-group">
-                    <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                      required="required"></textarea>
-                  </div> */}
+                  
+                  <div className="form-group">
+                    <input
+                      id="telegram_handle"
+                      type="string"
+                      name="telegram"
+                      placeholder="Entity Name"
+                      required="required"
+                    />
+                  </div>
 
                   <button
                     type="submit"

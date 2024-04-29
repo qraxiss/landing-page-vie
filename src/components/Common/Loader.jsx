@@ -7,7 +7,7 @@ function LoadingScreen() {
     setTimeout(() => {
       if (typeof Pace !== 'undefined') loadingPace();
     }, 1000);
-  });
+  }, []);
 
   return (
     <div className="hideX">

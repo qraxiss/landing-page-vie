@@ -64,7 +64,7 @@ function HomeFooter({ hideBGCOLOR }) {
                     </tr>
                     <tr>
                       <td>
-                        <a href="#0">ABOUT US</a>
+                        <a href="#about">ABOUT US</a>
                       </td>
                       <td></td>
                       <td>
@@ -84,7 +84,7 @@ function HomeFooter({ hideBGCOLOR }) {
                       </td>
                     </tr>
                     <tr>
-                      <a href="#0">
+                      <a href="#features">
                         <td>FEATURES</td>
                       </a>
                       <td></td>
@@ -94,7 +94,7 @@ function HomeFooter({ hideBGCOLOR }) {
                       </a>
                     </tr>
                     <tr>
-                      <a href="#0">
+                      <a href="#partnership">
                         <td>PARTNERSHIP</td>
                       </a>
                       <td></td>
@@ -104,8 +104,8 @@ function HomeFooter({ hideBGCOLOR }) {
                       </a>
                     </tr>
                     <tr>
-                      <a href="#0">
-                        <td>BLOGS</td>
+                      <a href="#blog">
+                        <td>BLOG</td>
                       </a>
                       <td></td>
                       <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/privacy-policy"
@@ -114,7 +114,7 @@ function HomeFooter({ hideBGCOLOR }) {
                       </a>
                     </tr>
                     <tr>
-                      <a href="#0">
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1" target="_blank">
                         <td>DOCS</td>
                       </a>
                       <td></td>
@@ -219,7 +219,7 @@ function HomeFooter({ hideBGCOLOR }) {
                   </tr>
                   <tr>
                     <td colSpan={3}>
-                      <a href="#0">FEATURES</a>
+                      <a href="#features">FEATURES</a>
                     </td>
                     <td></td>
                     <td colSpan={3}>
@@ -234,7 +234,7 @@ function HomeFooter({ hideBGCOLOR }) {
                   </tr>
                   <tr>
                     <td colSpan={3}>
-                      <a href="#0">PARTNERSHIP</a>
+                      <a href="#partnership">PARTNERSHIP</a>
                     </td>
                     <td></td>
                     <td colSpan={3}>
@@ -249,7 +249,7 @@ function HomeFooter({ hideBGCOLOR }) {
                   </tr>
                   <tr>
                     <td colSpan={3}>
-                      <a href="#0">BLOGS</a>
+                      <a href="#blog">BLOG</a>
                     </td>
                     <td></td>
                     <td colSpan={3}>
@@ -264,7 +264,7 @@ function HomeFooter({ hideBGCOLOR }) {
                   </tr>
                   <tr>
                     <td>
-                      <a href="#0">DOCS</a> <br />
+                      <a href="https://shopcek.gitbook.io/shopcek-or-shpc-1" target="_blank">DOCS</a> <br />
                       <a href="#0">LAUNCH APP</a>
                     </td>
                     <td></td>
