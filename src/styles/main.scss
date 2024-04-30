@@ -55,7 +55,9 @@ button.nb:hover {
   background: #fff;
   color: #222;
 }
-
+td{
+  z-index: 100;
+}
 .replay {
   cursor: pointer;
 }

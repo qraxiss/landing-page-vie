@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "How to use solid color combine with simple furnitures.",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/l1.jpg",
+    "title": "Crafting the Future of Marketing with Shopcek",
+    "content": "In the digital era, the concept of marketing has undergone a radical transformation, led by the rising tide of influencers. These modern-day icons wield their extensive social reach to create trends, sway markets, and build brands. They are the trendsetters and taste-makers, curating not just content but consumer habits and desires.",
+    "image": "/img/blog/imageBlog1.webp",
     "tags": ["WordPress", "Themeforest", "Vie"],
     "date": {
       "day": "07",
@@ -12,21 +12,10 @@
   },
   {
     "id": 2,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/l2.jpg",
+    "title": "Unique Stylish Outfits for Unseen Heroes of the Digital World",
+    "content": "In the bustling landscape of the digital realm, where unseen heroes shape our daily experiences, there exists an intriguing phenomenon—an increasing desire for personalized and unique attire. This quest for individuality not only reflects human psychology and behavior but also underscores the evolving dynamics between the real and digital worlds.",
+    "image": "/img/blog/imageBlog2.png",
     "tags": ["WordPress"],
-    "date": {
-      "day": "07",
-      "month": "August"
-    }
-  },
-  {
-    "id": 3,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/l3.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
     "date": {
       "day": "07",
       "month": "August"

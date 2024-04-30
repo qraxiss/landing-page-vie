@@ -11,9 +11,9 @@ const HomeNavbar = ({ lr, theme }) => {
 
   function handleScroll() {
     if (window.scrollY > 300) {
-      navbar.current.classList.add("nav-scroll");
+      navbar.current?.classList.add("nav-scroll");
     } else {
-      navbar.current.classList.remove("nav-scroll");
+      navbar.current?.classList.remove("nav-scroll");
     }
   }
 
@@ -81,7 +81,7 @@ const HomeNavbar = ({ lr, theme }) => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/#blog`}>
+              <a className="nav-link" href={`/blogs-list/`}>
                 Blog
               </a>
             </li>

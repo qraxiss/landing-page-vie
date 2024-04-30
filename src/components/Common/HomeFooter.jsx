@@ -1,5 +1,3 @@
-import React from "react";
-
 const icon = (social) => `/img/social/white/${social}.png`;
 
 function HomeFooter({ hideBGCOLOR }) {
@@ -30,7 +28,7 @@ function HomeFooter({ hideBGCOLOR }) {
               </div>
             </div>
             <div className="col-lg-8">
-              <div>
+              <div className="table-container">
                 <table>
                   <thead>
                     <tr>
@@ -43,14 +41,13 @@ function HomeFooter({ hideBGCOLOR }) {
                       </th>
                     </tr>
                   </thead>
-
                   <tbody>
                     <tr>
                       <td colSpan={3} className="color-font">
                         <span
                           className="line center"
                           style={{
-                            width: "93%",
+                            width: "`100%",
                             position: "absolute",
                             top: "2.2em",
                           }}
@@ -88,32 +85,36 @@ function HomeFooter({ hideBGCOLOR }) {
                       </td>
                     </tr>
                     <tr>
-                      <a href="/#features">
-                        <td>FEATURES</td>
-                      </a>
+                      <td>
+                        <a href="/#features">FEATURES</a>
+                      </td>
                       <td></td>
-                      <a
-                        href="https://shopcek.gitbook.io/shopcek-or-shpc-1/institutional/career"
-                        target="_blank"
-                      >
-                        <td>CAREER</td>
-                      </a>
-                    </tr>
-                    <tr>
-                      <a href="/#partnership">
-                        <td>PARTNERSHIP</td>
-                      </a>
-                      <td></td>
-                      <a
-                        href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/terms-and-conditions"
-                        target="_blank"
-                      >
-                        <td>TERMS OF SERVICE</td>
-                      </a>
+                      <td>
+                        <a
+                          href="https://shopcek.gitbook.io/shopcek-or-shpc-1/institutional/career"
+                          target="_blank"
+                        >
+                          CAREER
+                        </a>
+                      </td>
                     </tr>
                     <tr>
                       <td>
-                        <a href="/#blog">BLOG</a>
+                        <a href="/#partnership">PARTNERSHIP</a>
+                      </td>
+                      <td></td>
+                      <td>
+                        <a
+                          href="https://shopcek.gitbook.io/shopcek-or-shpc-1/legal/terms-and-conditions"
+                          target="_blank"
+                        >
+                          TERMS OF SERVICE
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="/blogs-list/">BLOG</a>
                       </td>
                       <td></td>
                       <td>
@@ -126,19 +127,16 @@ function HomeFooter({ hideBGCOLOR }) {
                       </td>
                     </tr>
                     <tr>
-                      <a
-                        href="https://shopcek.gitbook.io/shopcek-or-shpc-1"
-                        target="_blank"
-                      >
-                        <td>DOCS</td>
-                      </a>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <a href="/request-demo">
-                        <td>LAUNCH APP</td>
-                      </a>
+                      <td>
+                        <a
+                          href="https://shopcek.gitbook.io/shopcek-or-shpc-1"
+                          target="_blank"
+                        >
+                          DOCS
+                        </a>{" "}
+                        <br />
+                        <a href="/request-demo/">LAUNCH APP</a>
+                      </td>
                       <td></td>
                       <td></td>
                     </tr>
@@ -159,7 +157,6 @@ function HomeFooter({ hideBGCOLOR }) {
                     <img src={icon("tg")} alt="" />
                   </a>
                 </div>
-
                 <img src="/img/ms-purple.png" alt="" className="microsoft" />
               </div>
             </div>
@@ -174,12 +171,10 @@ function HomeFooter({ hideBGCOLOR }) {
                 margin: 24,
               }}
             />
-
             <div className="bottom-info">
               <div className="copyright">
                 Copyright 2024 SHOPCEK-All Rights Reserved
               </div>
-
               <div className="info">
                 Developed for the transition of the next billion to crypto
               </div>
@@ -213,19 +208,12 @@ function HomeFooter({ hideBGCOLOR }) {
                 <tbody>
                   <tr>
                     <td colSpan={3} className="color-font">
-                      <span
-                        className="line center"
-                        style={{
-                          width: "93%",
-                          position: "absolute",
-                          marginTop: 8,
-                        }}
-                      />
+                      <span className="line center" style={{ width: "93%" }} />
                     </td>
                   </tr>
                   <tr>
                     <td colSpan={3}>
-                      <a href="#0" style={{ marginTop: 16 }}>
+                      <a href="#about" style={{ marginTop: 16 }}>
                         ABOUT US
                       </a>
                     </td>
@@ -273,7 +261,7 @@ function HomeFooter({ hideBGCOLOR }) {
                   </tr>
                   <tr>
                     <td colSpan={3}>
-                      <a href="#blog">BLOG</a>
+                      <a href="/blogs-list/">BLOG</a>
                     </td>
                     <td></td>
                     <td colSpan={3}>
@@ -295,62 +283,49 @@ function HomeFooter({ hideBGCOLOR }) {
                         DOCS
                       </a>{" "}
                       <br />
-                      <a href="#0">LAUNCH APP</a>
+                      <a href="/request-demo/">LAUNCH APP</a>
                     </td>
+                    <td></td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
             </div>
-          </div>
-          <div className="row" style={{ flexDirection: "column", gap: 12 }}>
-            <h4 className="mobile-info-subscribe">
-              SUBSCRIBE TO OUR NEWSLETTER
-            </h4>
-            <span
-              className="line center"
-              style={{
-                width: "93%",
-                position: "absolute",
-                margin: 16,
-              }}
-            />
-            <div className="mobile-subscribe-container">
-              <input type="text" placeholder="EMAIL" />
-              <a href="#0">
-                <button className="back-color">
-                  <span className="text">SUBSCRIBE</span>
-                </button>
-              </a>
-            </div>
-            <div className="socials-mobile-icon">
-              <a href="https://twitter.com/shopcek" target="_blank">
-                <img src={icon("x")} alt="" />
-              </a>
-              <a href="https://discord.gg/kBH3p8Xb6y" target="_blank">
-                <img src={icon("dc")} alt="" />
-              </a>
-              <a href="https://medium.com/shopcek" target="_blank">
-                <img src={icon("md")} alt="" />
-              </a>
-              <a href="https://t.me/shopcek" target="_blank">
-                <img src={icon("tg")} alt="" />
-              </a>
-            </div>
-            <div className="microsoft-image-container">
-              <img src="/img/ms-purple.png" alt="" width={100} />
+            <div className="col-lg-4" style={{ flexDirection: "column", gap: 12 }}>
+              <h4 className="mobile-info-subscribe">
+                SUBSCRIBE TO OUR NEWSLETTER
+              </h4>
+              <span className="line center" style={{ width: "93%" }} />
+              <div className="mobile-subscribe-container">
+                <input type="text" placeholder="EMAIL" />
+                <a href="#0">
+                  <button className="back-color">
+                    <span className="text">SUBSCRIBE</span>
+                  </button>
+                </a>
+              </div>
+              <div className="socials-mobile-icon">
+                <a href="https://twitter.com/shopcek" target="_blank">
+                  <img src={icon("x")} alt="" />
+                </a>
+                <a href="https://discord.gg/kBH3p8Xb6y" target="_blank">
+                  <img src={icon("dc")} alt="" />
+                </a>
+                <a href="https://medium.com/shopcek" target="_blank">
+                  <img src={icon("md")} alt="" />
+                </a>
+                <a href="https://t.me/shopcek" target="_blank">
+                  <img src={icon("tg")} alt="" />
+                </a>
+              </div>
+              <div className="microsoft-image-container">
+                <img src="/img/ms-purple.png" alt="" width={100} />
+              </div>
             </div>
           </div>
           <div className="row">
-            <span
-              className="line center"
-              style={{
-                width: "93%",
-                position: "absolute",
-                marginLeft: 16,
-              }}
-            />
-            <div className="mobile-info-copyright">
+            <span className="line center" />
+            <div className="mobile-info-copyright" style={{padding:'5px'}}>
               Copyright 2024 SHOPCEK-All Rights Reserved
             </div>
           </div>

@@ -122,8 +122,8 @@ img {
     }
     .mobile-subscribe-container {
       position: relative;
-      left: 16px;
-      top: 0.5em;
+      left: 14px;
+      top: 1.5em;
       display: flex;
       flex-direction: row;
     
@@ -135,9 +135,11 @@ img {
       input {
         padding: 0.5em;
         border-radius: 10px 0px 0px 10px;
-        width: 12em;
+        width: 14em;
       }
-    
+    .text{
+      color: white
+    }
       button {
         cursor: pointer;
         width: 6em;
@@ -154,20 +156,19 @@ img {
     }
     .mobile-info-subscribe {
       margin-top: 24px;
-      margin-left: 16px;
     }
     .microsoft-image-container {
       display: flex;
       justify-content: flex-end;
-      margin: 16px;
+      margin: 68px 9px 4px 16px;
     }
     .socials-mobile-icon {
       display: flex;
       justify-content: flex-start;
       position: relative;
       flex-direction: row;
-      left: 16px;
-      top: 0.5em;
+      left: 24px;
+      top: 2.5em;
       gap: 8px;
   
       img {
@@ -179,6 +180,7 @@ img {
 }
 
 footer {
+  z-index: 10;
   .footer-logo {
     display: flex;
     flex-direction: column;
@@ -189,11 +191,18 @@ footer {
     .logo-icon {
       width: 8em;
     }
+   .table-container{
+    position: relative;
+   }
   }
   img.microsoft {
     width: 10em;
-    margin-left: 36.5em;
-    margin-top: 4em;
+    margin-left: 0;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    margin-top: 5em;
+    z-index: 4;
   }
 
   .bottom-info {
@@ -206,11 +215,9 @@ footer {
   .socials {
     justify-content: end;
     margin-right: 1.8em;
-    margin-top: -8em;
-
+    margin-top: -6em;
     display: flex;
     gap: 0.5em;
-
     img {
       width: 2em;
     }
@@ -226,6 +233,47 @@ footer {
   }
 }
 
+
+@media screen and (max-width: 1200px) {
+  th{
+   font-size: 15px;
+  }
+  .row{
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width: 1030px) {
+
+  footer {
+    img.microsoft {
+      bottom: -50px;
+    }
+}
+}
+@media screen and (max-width: 980px) {
+  .row{
+    margin-top: 40px;
+  }
+  footer {
+    img.microsoft {
+      bottom: -90px;
+    }
+}
+}
+@media screen and (max-width: 560px) {
+  .about .ftbox ul li {
+    margin: 35px 10px;
+  } 
+
+  .about  {
+    padding:0 !important;
+  }
+  .about .ftbox ul {
+    flex-wrap: wrap;
+  }
+}
 .subscribe {
   position: relative;
   right: -2.9em;
@@ -362,7 +410,7 @@ span:hover {
 .line {
   position: absolute;
   height: 1px;
-  width: 65%;
+  width: 100%;
   background: -webkit-gradient(
     linear,
     left top,
@@ -4009,6 +4057,7 @@ span:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100% !important;
 }
 
 .about .ftbox ul li {

@@ -36,7 +36,7 @@ const BlogList = () => {
                             ))}
                           </div>
                           <h5>
-                            <Link href="/blog-details/blog-details-dark">
+                            <Link href={`/blog-details/?id=${blogItem.id}`}>
                               {blogItem.title}
                             </Link>
                           </h5>
@@ -44,7 +44,7 @@ const BlogList = () => {
                             {blogItem.content.substr(0, 146) + '...'}
                           </p>
                           <div className="btn-more mt-30">
-                            <Link href="/blog-details/blog-details-dark" className="simple-btn">
+                            <Link href={`/blog-details/?id=${blogItem.id}`} className="simple-btn">
                               Read More
                             </Link>
                           </div>
@@ -54,19 +54,6 @@ const BlogList = () => {
                   </div>
                 </div>
               ))}
-              <div className="pagination">
-                <span className="active">
-                  <Link href={`/blog/blog-dark`}>1</Link>
-                </span>
-                <span>
-                  <Link href={`/blog/blog-dark`}>2</Link>
-                </span>
-                <span>
-                  <Link href={`/blog/blog-dark`}>
-                    <i className="fas fa-angle-right"></i>
-                  </Link>
-                </span>
-              </div>
             </div>
           </div>
         </div>
