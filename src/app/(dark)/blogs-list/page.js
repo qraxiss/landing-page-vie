@@ -7,7 +7,7 @@ import BlogList from '@/components/Blogs/BlogList';
 import Navbar from "@/components/Common/HomeNavbar";
 
 export const metadata = {
-  title: 'Vie - Blog List Dark'
+  title: 'Shopcek - Blog List'
 }
 
 export default function BlogListPage() {

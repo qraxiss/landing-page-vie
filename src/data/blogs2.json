@@ -6,8 +6,8 @@
     "image": "/img/blog/imageBlog1.webp",
     "tags": ["WordPress", "Themeforest", "Vie"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "15",
+      "month": "April"
     }
   },
   {
@@ -17,8 +17,8 @@
     "image": "/img/blog/imageBlog2.png",
     "tags": ["WordPress"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "12",
+      "month": "March"
     }
   }
 ]

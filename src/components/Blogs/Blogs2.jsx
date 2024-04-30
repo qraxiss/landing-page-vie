@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import blogs from "@/data/blogs2.json";
 
 const Blogs2 = () => {
   return (
@@ -22,81 +23,31 @@ const Blogs2 = () => {
               </div>
             </div>
             <div className="col-lg-7 offset-lg-1">
-              <div className="item wow fadeInUp" data-wow-delay=".3s">
-                <div className="img valign">
-                  <img src="/img/blog/1.jpg" alt="" />
-                </div>
-                <div className="cont valign">
-                  <div>
-                    <div className="info">
-                      <Link href="/blog/blog-dark" className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </Link>
-                      <span>/</span>
-                      <Link href="/blog/blog-dark" className="tag">
-                        <span>WordPress</span>
-                      </Link>
+            {blogs.map((blogItem, idx) => (
+              
+                <div key={`idx-${idx}`} className="item wow fadeInUp" data-wow-delay=".3s">
+                  <div className="img valign">
+                    <img src={blogItem.image} alt="" />
+                  </div>
+                  <div className="cont valign">
+                    <div>
+                      <div className="info">
+                        <Link href="/blog/blog-dark" className="date">
+                          <span>
+                            <i>{blogItem.date.day}</i> {blogItem.date.month}
+                          </span>
+                        </Link>
+                      </div>
+                      <h5>
+                        <Link href={`/blog-details/?id=${blogItem.id}`}>
+                        {blogItem.title}
+                        </Link>
+                      </h5>
                     </div>
-                    <h5>
-                      <Link href="/blog-details/blog-details-dark">
-                        How to use solid color combine with simple furnitures.
-                      </Link>
-                    </h5>
                   </div>
                 </div>
-              </div>
-              <div className="item wow fadeInUp" data-wow-delay=".5s">
-                <div className="img valign">
-                  <img src="/img/blog/2.jpg" alt="" />
-                </div>
-                <div className="cont valign">
-                  <div>
-                    <div className="info">
-                      <Link href="/blog/blog-dark" className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </Link>
-                      <span>/</span>
-                      <Link href="/blog/blog-dark" className="tag">
-                        <span>WordPress</span>
-                      </Link>
-                    </div>
-                    <h5>
-                      <Link href="/blog-details/blog-details-dark">
-                        How to use solid color combine with simple furnitures.
-                      </Link>
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div className="item wow fadeInUp" data-wow-delay=".3s">
-                <div className="img valign">
-                  <img src="/img/blog/3.jpg" alt="" />
-                </div>
-                <div className="cont valign">
-                  <div>
-                    <div className="info">
-                      <Link href="/blog/blog-dark" className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </Link>
-                      <span>/</span>
-                      <Link href="/blog/blog-dark" className="tag">
-                        <span>WordPress</span>
-                      </Link>
-                    </div>
-                    <h5>
-                      <Link href="/blog-details/blog-details-dark">
-                        How to use solid color combine with simple furnitures.
-                      </Link>
-                    </h5>
-                  </div>
-                </div>
-              </div>
+              
+            ))}
             </div>
           </div>
         </div>

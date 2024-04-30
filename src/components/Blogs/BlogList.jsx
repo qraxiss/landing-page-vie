@@ -28,12 +28,6 @@ const BlogList = () => {
                                 {blogItem.date.month}
                               </span>
                             </Link>
-                            <span>/</span>
-                            {blogItem.tags.map((tag, index) => (
-                              <Link key={index} href="/blog/blog-dark" className="tag">
-                                <span>{tag}</span>
-                              </Link>
-                            ))}
                           </div>
                           <h5>
                             <Link href={`/blog-details/?id=${blogItem.id}`}>
