@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useCallback, useEffect, useState } from "react";
 //= Components
 import Split from "@/components/Common/Split";
@@ -6,7 +6,6 @@ import Split from "@/components/Common/Split";
 import contentFormData from "@/data/contact-form.json";
 
 function RequestDemoFrom({ theme }) {
-
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -48,7 +47,7 @@ function RequestDemoFrom({ theme }) {
                       required="required"
                     />
                   </div>
-                  
+
                   <div className="form-group">
                     <input
                       id="telegram_handle"
@@ -59,12 +58,12 @@ function RequestDemoFrom({ theme }) {
                     />
                   </div>
 
-                  <button
-                    type="submit"
-                    className={`butn ${theme === "light" ? "dark" : "bord"}`}
+                  <span
+                    className="butn bord curve wow fadeInUp"
+                    data-wow-delay=".5s"
                   >
                     <span>Submit</span>
-                  </button>
+                  </span>
                 </div>
               </form>
             </div>
