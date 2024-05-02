@@ -428,14 +428,13 @@ footer {
   }
 }
 
-.footer.mobile {
-  .microsoft-image-container {
-    display: flex;
-    justify-content: flex-start;
-    img {
-      width: 50%;
-    }
-  }
+.footer.mobile .microsoft-image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer.mobile .microsoft-image-container img {
+  width: 50%;
 }
 
 .line.top {
