@@ -47,7 +47,7 @@ function HomeFooter({ hideBGCOLOR }) {
                         <span
                           className="line center"
                           style={{
-                            width: "`100%",
+                            width: "47em",
                             position: "absolute",
                             top: "2.2em",
                           }}
@@ -59,7 +59,7 @@ function HomeFooter({ hideBGCOLOR }) {
                         Hidden Text
                       </td>
                     </tr>
-                    <tr>
+                    <tr style={{ position: "relative", bottom: "-7px" }}>
                       <td>
                         <a href="/#about">ABOUT US</a>
                       </td>
@@ -165,7 +165,7 @@ function HomeFooter({ hideBGCOLOR }) {
             <span
               className="line center"
               style={{
-                width: "79%",
+                width: "72em",
                 position: "absolute",
                 marginLeft: 28,
                 margin: 24,
@@ -291,7 +291,10 @@ function HomeFooter({ hideBGCOLOR }) {
                 </tbody>
               </table>
             </div>
-            <div className="col-lg-4" style={{ flexDirection: "column", gap: 12 }}>
+            <div
+              className="col-lg-4"
+              style={{ flexDirection: "column", gap: 12 }}
+            >
               <h4 className="mobile-info-subscribe">
                 SUBSCRIBE TO OUR NEWSLETTER
               </h4>
@@ -319,13 +322,13 @@ function HomeFooter({ hideBGCOLOR }) {
                 </a>
               </div>
               <div className="microsoft-image-container">
-                <img src="/img/ms-purple.png" alt="" width={100} />
+                <img src="/img/ms-purple.png" alt="" width={70} />
               </div>
             </div>
           </div>
           <div className="row">
-            <span className="line center" />
-            <div className="mobile-info-copyright" style={{padding:'5px'}}>
+            <span className="line center bottom-line" />
+            <div className="mobile-info-copyright" style={{ padding: "5px" }}>
               Copyright 2024 SHOPCEK-All Rights Reserved
             </div>
           </div>

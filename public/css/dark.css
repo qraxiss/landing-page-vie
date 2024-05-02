@@ -68,6 +68,7 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
 }
 
 body {
@@ -407,7 +408,7 @@ span:hover {
 .line {
   position: absolute;
   height: 1px;
-  width: 100%;
+  width: 73%;
   background: -webkit-gradient(
     linear,
     left top,
@@ -419,6 +420,22 @@ span:hover {
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+footer {
+  .bottom-line {
+    width: 120%;
+  }
+}
+
+.footer.mobile {
+  .microsoft-image-container {
+    display: flex;
+    justify-content: flex-start;
+    img {
+      width: 50%;
+    }
+  }
 }
 
 .line.top {
@@ -8379,6 +8396,12 @@ footer .item .copy-right p a {
     opacity: 1;
     padding: 10px 15px;
     height: auto;
+  }
+
+  footer {
+    .bottom-line {
+      width: 100%;
+    }
   }
 
   .bg-img {
