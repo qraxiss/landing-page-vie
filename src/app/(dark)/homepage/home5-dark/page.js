@@ -7,7 +7,7 @@ import Footer from "@/components/Common/HomeFooter";
 import AboutUs from "@/components/AboutUs/AboutUs2";
 import Works from "@/components/Works/Works1";
 import Numbers from "@/components/Numbers/Numbers1";
-import Blogs from "@/components/Blogs/Blogs2";
+// import Blogs from "@/components/Blogs/Blogs2";
 import Video from "@/components/Others/Video";
 import CallToAction from "@/components/Others/CallToAction";
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
@@ -41,7 +41,7 @@ export default function Home5() {
       <Numbers />
       <Video />
       <Clients theme="dark" />
-      <Blogs />
+      {/* <Blogs /> */}
       <CallToAction />
       <Footer />
     </>
