@@ -50,7 +50,14 @@ const Header4 = ({ sliderRef, blackStar }) => {
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle two"></div>
-      <div className="line bottom left"></div>
+      <div
+        className="line bottom left"
+        style={
+          {
+            // bottom: "3em",
+          }
+        }
+      ></div>
     </header>
   );
 };

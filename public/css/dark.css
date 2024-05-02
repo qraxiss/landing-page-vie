@@ -97,6 +97,11 @@ img {
   position: relative;
   right: -2.9em;
 }
+
+header.particles.circle-bg.valign {
+  margin-bottom: 3em;
+}
+
 .footer-wrapper {
   .desktop {
     @media screen and (max-width: 768px) {
