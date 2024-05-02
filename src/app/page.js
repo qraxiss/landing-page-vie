@@ -5,7 +5,7 @@ import generateStylesheetObject from "@/common/generateStylesheetsObject";
 import Cursor from "@/components/Common/Cursor";
 import ProgressScroll from "@/components/Common/ProgressScroll";
 
-import Home5 from "./(dark)/homepage/home5-dark/page";
+import Home from "./home";
 
 export const metadata = {
   title: "Shopcek",
@@ -27,7 +27,7 @@ export default function LandingPreview() {
       <Cursor />
       <ProgressScroll />
 
-      <Home5></Home5>
+      <Home></Home>
 
       <Script strategy="beforeInteractive" src="/js/wow.min.js"></Script>
       <Script strategy="beforeInteractive" src="/js/splitting.min.js"></Script>
