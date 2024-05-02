@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Footer2() {
   return (
@@ -94,7 +94,7 @@ function Footer2() {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <p>© 2022 Vie. All Rights Reserved</p>
+                <p>© 2022 shopcek. All Rights Reserved</p>
               </div>
             </div>
           </div>
@@ -105,6 +105,6 @@ function Footer2() {
       <div className="circle-blur two"></div>
     </footer>
   );
-};
+}
 
 export default Footer2;

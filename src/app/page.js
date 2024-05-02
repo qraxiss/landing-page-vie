@@ -5,7 +5,7 @@ import generateStylesheetObject from "@/common/generateStylesheetsObject";
 import Cursor from "@/components/Common/Cursor";
 import ProgressScroll from "@/components/Common/ProgressScroll";
 
-import Home from "./home";
+import Home from "./(dark)/home/page";
 
 export const metadata = {
   title: "Shopcek",

@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 function Footer({ hideBGCOLOR }) {
   return (
-    <footer className={`${!hideBGCOLOR ? 'sub-bg' : ''}`}>
+    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
@@ -103,7 +103,8 @@ function Footer({ hideBGCOLOR }) {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2023, Vie Template. Made with passion by <a href="#0">ThemesCamp</a>.
+                  © 2023, Shopcek Template. Made with passion by{" "}
+                  <a href="#0">ThemesCamp</a>.
                 </p>
               </div>
             </div>
@@ -111,7 +112,7 @@ function Footer({ hideBGCOLOR }) {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect } from "react";
 //= Scripts
 import aboutSkillsProgress from "@/common/aboutSkillsProgress";
@@ -26,8 +26,8 @@ const AboutUs5 = () => {
                 We help to create visual strategies.
               </h5>
               <p>
-                We are Vie. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                We are Shopcek. We create award-winning websites, remarkable
+                brands and cutting-edge apps.Nullam imperdie.
               </p>
               <div className="skills-box mt-40">
                 <div className="skill-item">

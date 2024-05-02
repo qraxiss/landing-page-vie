@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
@@ -23,9 +23,15 @@ function FreelancreIntro() {
               <h1 className="cd-headline clip">
                 Hello, My name is hisham i love design and i hope to make
                 awesome designs and also i create a
-                <span style={{ fontSize: "35px", lineHeight: "49px", marginLeft: '7px' }} className="cd-words-wrapper">
-                  {
-                    loadTypeWriter &&
+                <span
+                  style={{
+                    fontSize: "35px",
+                    lineHeight: "49px",
+                    marginLeft: "7px",
+                  }}
+                  className="cd-words-wrapper"
+                >
+                  {loadTypeWriter && (
                     <Typewriter
                       options={{
                         wrapperClassName: "color-font fw-600",
@@ -39,7 +45,7 @@ function FreelancreIntro() {
                       }}
                       loop={true}
                     />
-                  }
+                  )}
                 </span>
               </h1>
             </div>
@@ -77,7 +83,7 @@ function FreelancreIntro() {
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>Vie_Support@Gmail.Com</h6>
+                        <h6>shopcek_Support@Gmail.Com</h6>
                       </div>
                     </div>
                     <div className="mail-icon">
@@ -95,6 +101,6 @@ function FreelancreIntro() {
       <div className="line bottom left"></div>
     </header>
   );
-};
+}
 
 export default FreelancreIntro;

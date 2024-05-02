@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function FooterArch() {
   return (
@@ -47,7 +47,8 @@ function FooterArch() {
                   </div>
                   <div className="sm-post">
                     <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress Journal.
+                      The Start-Up Ultimate Guide to Make Your WordPress
+                      Journal.
                     </p>
                     <span className="date main-color">14 sep 2023</span>
                   </div>
@@ -58,7 +59,8 @@ function FooterArch() {
                   </div>
                   <div className="sm-post">
                     <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress Journal.
+                      The Start-Up Ultimate Guide to Make Your WordPress
+                      Journal.
                     </p>
                     <span className="date main-color">14 sep 2023</span>
                   </div>
@@ -93,8 +95,11 @@ function FooterArch() {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2023, Vie Template. Made with passion by
-                  <a href="#0" className="main-color"> ThemesCamp </a>
+                  © 2023, Shopcek Template. Made with passion by
+                  <a href="#0" className="main-color">
+                    {" "}
+                    ThemesCamp{" "}
+                  </a>
                   .
                 </p>
               </div>
@@ -103,7 +108,7 @@ function FooterArch() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default FooterArch
+export default FooterArch;
