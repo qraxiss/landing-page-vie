@@ -41,7 +41,6 @@ export default function Home5() {
       <Numbers />
       <Video />
       <Clients theme="dark" />
-      {/* <Blogs /> */}
       <CallToAction />
       <Footer />
     </>

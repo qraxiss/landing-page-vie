@@ -81,11 +81,6 @@ const HomeNavbar = ({ lr, theme }) => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/blogs-list/`}>
-                Blog
-              </a>
-            </li>
-            <li className="nav-item">
               <a
                 className="nav-link"
                 href={`//shopcek.gitbook.io/`}
