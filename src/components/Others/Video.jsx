@@ -14,7 +14,7 @@ function Video() {
   return (
     <section
       className="video bg-img parallaxie"
-      style={{ backgroundImage: `url('/img/bg-vid.jpg')` }}
+      style={{ backgroundImage: `url('/img/video.png')` }}
     >
       <ModalVideo
         channel="youtube"

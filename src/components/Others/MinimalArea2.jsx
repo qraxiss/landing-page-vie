@@ -1,9 +1,8 @@
-'use client';
-import React, { useEffect } from 'react';
-import Link from 'next/link';
+"use client";
+import React, { useEffect } from "react";
+import Link from "next/link";
 //= Scripts
-import thumparallaxDown from '@/common/thumparallaxDown';
-
+import thumparallaxDown from "@/common/thumparallaxDown";
 
 function MinimalArea1() {
   useEffect(() => {
@@ -16,7 +15,11 @@ function MinimalArea1() {
         <div className="row">
           <div className="col-lg-6">
             <div className="img">
-              <img className="thumparallax-down" src="/img/min-area.jpg" alt="" />
+              <img
+                className="thumparallax-down"
+                src="/img/intro/4.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="col-lg-6 valign">
@@ -36,7 +39,11 @@ function MinimalArea1() {
                   We work with some of the most successful businesses.
                 </li>
               </ul>
-              <Link href="/about/about-dark" className="butn bord curve mt-40 wow fadeInUp" data-wow-delay=".8s">
+              <Link
+                href="/about/about-dark"
+                className="butn bord curve mt-40 wow fadeInUp"
+                data-wow-delay=".8s"
+              >
                 <span>Discover</span>
               </Link>
               <br />
@@ -45,7 +52,7 @@ function MinimalArea1() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default MinimalArea1
+export default MinimalArea1;

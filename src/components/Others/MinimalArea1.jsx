@@ -16,7 +16,7 @@ function MinimalArea1() {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="/img/intro/4.png"
                 alt=""
               />
             </div>
@@ -25,7 +25,8 @@ function MinimalArea1() {
             <div className="content pt-0">
               <h4 className="wow color-font">Crypto Shopping Simplified</h4>
               <p className="wow txt" data-splitting>
-              Personalize your shopping adventure and enjoy the simplicity of crypto transactions.
+                Personalize your shopping adventure and enjoy the simplicity of
+                crypto transactions.
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
