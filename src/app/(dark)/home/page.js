@@ -18,15 +18,15 @@ export default function Home() {
       <Loading />
       <Navbar />
       <Header />
-      <AboutUs />
-      <MinimalArea />
-      <Services />
-      <Works />
-      <Numbers />
-      <Video />
-      <Clients theme="dark" />
-      <CallToAction />
-      <Footer />
+      {/* <AboutUs /> */}
+      {/* <MinimalArea /> */}
+      {/* <Services /> */}
+      {/* <Works /> */}
+      {/* <Numbers /> */}
+      {/* <Video /> */}
+      {/* <Clients theme="dark" /> */}
+      {/* <CallToAction /> */}
+      {/* <Footer /> */}
     </>
   );
 }

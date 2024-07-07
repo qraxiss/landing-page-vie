@@ -216,3 +216,22 @@ body.hideX .pace {
     background: #ff4b4b;
   }
 }
+.home-navbar {
+  padding: 0 20px;
+  border-radius: 10px;
+  width: 70%;
+  margin-top: 30px;
+  background-color: rgba(59, 59, 59, 0.3);
+  flex-wrap: nowrap;
+}
+
+.home-navbar-image{
+  width: 30px;
+  margin: 0 10px;
+}
+.navbar{
+  display: flex !important;
+  align-items: center !important; 
+  // height: 100% !important;
+}
+  

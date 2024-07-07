@@ -1,5 +1,6 @@
 {
     "lightLogo": "/img/logo-light.png",
     "darkLogo": "/img/logo-dark.png",
+    "twitter":"../../../public/img/twitter.png",
     "showLoading": true
 }

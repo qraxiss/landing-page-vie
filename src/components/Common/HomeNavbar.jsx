@@ -5,6 +5,7 @@ import Link from "next/link";
 import { handleDropdown, handleMobileDropdown } from "@/common/navbar";
 //= Static Data
 import appData from "@/data/app.json";
+import TwitterLogo from "../../../public/img/twitter.png";
 
 const HomeNavbar = ({ lr, theme }) => {
   const navbar = useRef();
@@ -29,8 +30,9 @@ const HomeNavbar = ({ lr, theme }) => {
       className={`navbar navbar-expand-lg change ${
         theme === "light" ? "light" : ""
       }`}
+      style={{minHeight: "90px"}}
     >
-      <div className="container">
+      <div className="container home-navbar" style={{marginTop: 10 , paddingBlock: '5px'}}>
         <Link className="logo" href="/">
           {theme ? (
             theme === "light" ? (
@@ -43,7 +45,19 @@ const HomeNavbar = ({ lr, theme }) => {
           )}
         </Link>
 
-        <button
+        <div className="d-flex">
+          <img
+            src="/img/twitter.png"
+            className="home-navbar-image"
+            alt="logo"
+          />
+          <img
+            src="/img/telegram.png"
+            className="home-navbar-image"
+            alt="logo"
+          />
+        </div>
+        {/* <button
           className="navbar-toggler"
           type="button"
           onClick={handleMobileDropdown}
@@ -56,9 +70,9 @@ const HomeNavbar = ({ lr, theme }) => {
           <span className="icon-bar">
             <i className="fas fa-bars"></i>
           </span>
-        </button>
+        </button> */}
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link" href={`/`}>
@@ -101,7 +115,7 @@ const HomeNavbar = ({ lr, theme }) => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
