@@ -260,6 +260,15 @@ header.particles.circle-bg.valign {
   justify-content: center;
   align-items: center;
 }
+.home-navbar-img-container:hover {
+  width: 45px;
+  height: 45px;
+  background: #3d3c3c;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .home-navbar-image {
   width: 25px;

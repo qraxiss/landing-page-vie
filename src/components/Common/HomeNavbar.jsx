@@ -30,9 +30,12 @@ const HomeNavbar = ({ lr, theme }) => {
       className={`navbar navbar-expand-lg change ${
         theme === "light" ? "light" : ""
       }`}
-      style={{minHeight: "90px"}}
+      style={{ minHeight: "90px" }}
     >
-      <div className="container home-navbar" style={{marginTop: 30 , paddingBlock: '10px'}}>
+      <div
+        className="container home-navbar"
+        style={{ marginTop: 30, paddingBlock: "10px" }}
+      >
         <Link className="logo" href="/">
           {theme ? (
             theme === "light" ? (
@@ -45,21 +48,29 @@ const HomeNavbar = ({ lr, theme }) => {
           )}
         </Link>
 
-        <div className="d-flex" style={{ gap: 12}}>
-          <span className="home-navbar-img-container">
-          <img
-            src="/img/telegram.png"
-            className="home-navbar-image"
-            alt="logo"
-          />
-          </span>
-          <span className="home-navbar-img-container">
-          <img
-            src="/img/twitter.png"
-            className="home-navbar-image"
-            alt="logo"
-          />
-          </span>
+        <div className="d-flex" style={{ gap: 12 }}>
+          <a
+            href="https://x.com/shopcek"
+            target="_blank"
+            className="home-navbar-img-container"
+          >
+            <img
+              src="/img/telegram.png"
+              className="home-navbar-image"
+              alt="logo"
+            />
+          </a>
+          <a
+            href="https://t.me/shopcek"
+            target="_blank"
+            className="home-navbar-img-container"
+          >
+            <img
+              src="/img/twitter.png"
+              className="home-navbar-image"
+              alt="logo"
+            />
+          </a>
         </div>
         {/* <button
           className="navbar-toggler"
