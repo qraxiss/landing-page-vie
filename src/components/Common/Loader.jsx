@@ -9,7 +9,7 @@ function LoadingScreen() {
     const timer = setTimeout(() => {
       setShowLoader(false);
       if (typeof Pace !== "undefined") loadingPace();
-    }, 3000); // Close the loader after 3 seconds (adjust as needed)
+    }, 1800); // Close the loader after 5 seconds (adjust as needed)
 
     return () => clearTimeout(timer); // Clear the timer when the component unmounts
   }, []);
@@ -54,9 +54,6 @@ function LoadingScreen() {
             <span>
               <img src="/img/OKX.png" alt="" />
             </span>
-            <span className="dot"></span>
-            <span className="dot"></span>
-            <span className="dot"></span>
           </div>
         </div>
       )}

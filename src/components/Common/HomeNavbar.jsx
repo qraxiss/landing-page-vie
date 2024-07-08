@@ -32,7 +32,7 @@ const HomeNavbar = ({ lr, theme }) => {
       }`}
       style={{minHeight: "90px"}}
     >
-      <div className="container home-navbar" style={{marginTop: 10 , paddingBlock: '5px'}}>
+      <div className="container home-navbar" style={{marginTop: 30 , paddingBlock: '10px'}}>
         <Link className="logo" href="/">
           {theme ? (
             theme === "light" ? (
@@ -45,17 +45,21 @@ const HomeNavbar = ({ lr, theme }) => {
           )}
         </Link>
 
-        <div className="d-flex">
-          <img
-            src="/img/twitter.png"
-            className="home-navbar-image"
-            alt="logo"
-          />
+        <div className="d-flex" style={{ gap: 12}}>
+          <span className="home-navbar-img-container">
           <img
             src="/img/telegram.png"
             className="home-navbar-image"
             alt="logo"
           />
+          </span>
+          <span className="home-navbar-img-container">
+          <img
+            src="/img/twitter.png"
+            className="home-navbar-image"
+            alt="logo"
+          />
+          </span>
         </div>
         {/* <button
           className="navbar-toggler"

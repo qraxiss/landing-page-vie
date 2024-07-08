@@ -31,25 +31,23 @@ const Header4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font w-900">Get Ready for</span>
-                <span className="color-font w-900">Onchain Shopping</span>
-                {/* <span>Brings</span>
-                <span className="color-font w-900">Blockchain Fashion</span>
-                <span>to Street</span> */}
+                <span style={{ fontSize: 75}} className="color-font w-900">Get Ready for</span>
+                <span style={{ fontSize: 75}} className="color-font w-900">Onchain Shopping</span>
               </h1>
             </div>
           </div>
           <div className="header-card d-flex flex-column justify-content-center align-items-center">
-            <p>
-              We are launching the Shopcek Earniverse as an exciting Telegram
-              mini-game app to reward our community before our e-commerce
-              platform goes live and our token is listed on tier-1 exchanges
-              dive into the fun, stay engaged and unlock awesome reward
+            <p style={{ lineHeight: 1.4, fontSize: 19, marginTop: 4 }}>
+              We are launching the Shopcek Earniverse as an exciting Telegram mini-app <br /> to reward our community before our e-commerce
+              platform goes live and our token is listed on tier-1 exchanges.
+            </p>
+            <p style={{ fontSize: 19, marginTop: 12 }}>
+            Dive into the fun, stay engaged and unlock awesome rewards
             </p>
             <button className="card-button"> Start Earning</button>
           </div>
           <div className="footer-card d-flex flex-column justify-content-center align-items-center">
-            <p>
+            <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400}}>
             Shopcek © 2024
             </p>
           </div>
