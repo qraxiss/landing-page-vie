@@ -9,7 +9,7 @@ COPY package.json yarn.lock ./
 
 # Install dependencies
 RUN yarn install
-RUN npm i npx -g
+# RUN npm i npx -g
 # Copy the rest of the application code to the working directory
 COPY . .
 
