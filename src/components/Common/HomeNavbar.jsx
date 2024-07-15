@@ -32,10 +32,7 @@ const HomeNavbar = ({ lr, theme }) => {
       }`}
       style={{ minHeight: "90px" }}
     >
-      <div
-        className="container home-navbar"
-        style={{ marginTop: 0, }}
-      >
+      <div className="container home-navbar" style={{ marginTop: 0 }}>
         <Link className="logo" href="/">
           {theme ? (
             theme === "light" ? (
@@ -55,7 +52,7 @@ const HomeNavbar = ({ lr, theme }) => {
             className="home-navbar-img-container"
           >
             <img
-              src="/img/telegram.png"
+              src="/img/Telegram.png"
               className="home-navbar-image"
               alt="logo"
             />
