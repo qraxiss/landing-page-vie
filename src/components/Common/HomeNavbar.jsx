@@ -34,7 +34,7 @@ const HomeNavbar = ({ lr, theme }) => {
     >
       <div
         className="container home-navbar"
-        style={{ marginTop: 30, paddingBlock: "10px" }}
+        style={{ marginTop: 0, paddingBlock: "20px" }}
       >
         <Link className="logo" href="/">
           {theme ? (
@@ -50,7 +50,7 @@ const HomeNavbar = ({ lr, theme }) => {
 
         <div className="d-flex" style={{ gap: 12 }}>
           <a
-            href="https://x.com/shopcek"
+            href="https://t.me/Shopcek"
             target="_blank"
             className="home-navbar-img-container"
           >
@@ -61,7 +61,7 @@ const HomeNavbar = ({ lr, theme }) => {
             />
           </a>
           <a
-            href="https://t.me/shopcek"
+            href="https://x.com/Shopcek"
             target="_blank"
             className="home-navbar-img-container"
           >

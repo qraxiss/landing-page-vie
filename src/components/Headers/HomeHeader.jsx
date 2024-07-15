@@ -26,19 +26,19 @@ const Header4 = ({ sliderRef, blackStar }) => {
 
   return (
     <header ref={sliderRef} className="particles circle-bg valign">
-      <div className="container mb-4">
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
+      <div className="container  mb-4">
+        <div className="row justify-content-center ">
+          <div className="col-lg-10 ">
             <div className="cont text-center">
-              <h1>
+              <h1 className="pt-50">
                 <span className="color-font w-900">Get Ready for</span>
                 <span className="color-font w-900">Onchain Shopping</span>
               </h1>
             </div>
           </div>
           <div className="header-card d-flex flex-column justify-content-center align-items-center">
-            <p style={{marginTop: 4 }}>
-              We are launching the Shopcek Earniverse as an exciting Telegram mini-app <br /> to reward our community before our e-commerce
+            <p style={{marginTop: 4, paddingBlock: 10 }}>
+              We are launching the Shopcek Earniverse as an exciting Telegram mini-app <br /> to reward our community before our <br /> e-commerce
               platform goes live and our token is listed on tier-1 exchanges.
             </p>
             <p style={{marginTop: 12 }}>
@@ -47,7 +47,7 @@ const Header4 = ({ sliderRef, blackStar }) => {
             <button className="card-button"> Start Earning</button>
           </div>
           <div className="footer-card d-flex flex-column justify-content-center align-items-center">
-            <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400}}>
+            <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400 }}>
             Shopcek © 2024
             </p>
           </div>
