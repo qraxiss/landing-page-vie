@@ -55,7 +55,7 @@ const HomeNavbar = ({ lr, theme }) => {
             className="home-navbar-img-container"
           >
             <img
-              src="/img/twitter.png"
+              src="/img/telegram.png"
               className="home-navbar-image"
               alt="logo"
             />
