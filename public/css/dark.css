@@ -253,8 +253,8 @@ header.particles.circle-bg.valign {
 }
 
 .home-navbar-img-container {
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   background: #3d3c3c;
   border-radius: 12px;
   display: flex;
@@ -262,8 +262,8 @@ header.particles.circle-bg.valign {
   align-items: center;
 }
 .home-navbar-img-container:hover {
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   background: #3d3c3c;
   border-radius: 12px;
   display: flex;
@@ -272,7 +272,7 @@ header.particles.circle-bg.valign {
 }
 
 .home-navbar-image {
-  width: 25px;
+  width: 15px;
 }
 
 @media (max-width: 550px) {

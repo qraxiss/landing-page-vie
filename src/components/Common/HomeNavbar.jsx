@@ -48,7 +48,7 @@ const HomeNavbar = ({ lr, theme }) => {
           )}
         </Link>
 
-        <div className="d-flex" style={{ gap: 12 }}>
+        <div className="d-flex" style={{ gap: 6 }}>
           <a
             href="https://t.me/Shopcek"
             target="_blank"

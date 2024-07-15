@@ -44,7 +44,7 @@ const Header4 = ({ sliderRef, blackStar }) => {
             <p style={{marginTop: 12 }}>
             Dive into the fun, stay engaged and unlock awesome rewards
             </p>
-            <button className="card-button"> Start Earning</button>
+            <button className="card-button mb-3 sm:mb-0"> Start Earning</button>
           </div>
           <div className="footer-card d-flex flex-column justify-content-center align-items-center">
             <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400 }}>
