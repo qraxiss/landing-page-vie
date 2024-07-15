@@ -282,12 +282,15 @@ header.particles.circle-bg.valign {
     width: 95%;
   }
   .cont {
-    margin-top: 100px;
+    margin-top: 30% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .particles .container .row {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
     justify-content: space-evenly !important;
   }
@@ -301,7 +304,7 @@ header.particles.circle-bg.valign {
   }
   .home-navbar {
     flex-direction: column;
-    width: 80% !important;
+    width: 90% !important;
   }
   .header-card p {
     font-size: 12px;
@@ -314,7 +317,7 @@ header.particles.circle-bg.valign {
   .header-card {
     padding: 20px;
     margin-top: 0px;
-    width: 80%;
+    width: 90%;
   }
   .header-card p {
     font-size: 12px;

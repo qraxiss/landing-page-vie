@@ -26,11 +26,11 @@ const Header4 = ({ sliderRef, blackStar }) => {
 
   return (
     <header ref={sliderRef} className="particles circle-bg valign">
-      <div className="container  mb-4">
-        <div className="row justify-content-center ">
+      <div className="container mb-4">
+        <div className="row justify-content-center">
           <div className="col-lg-10 ">
             <div className="cont text-center">
-              <h1 className="pt-50">
+              <h1>
                 <span className="color-font w-900">Get Ready for</span>
                 <span className="color-font w-900">Onchain Shopping</span>
               </h1>

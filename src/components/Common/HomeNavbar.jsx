@@ -34,7 +34,7 @@ const HomeNavbar = ({ lr, theme }) => {
     >
       <div
         className="container home-navbar"
-        style={{ marginTop: 0, paddingBlock: "20px" }}
+        style={{ marginTop: 0, }}
       >
         <Link className="logo" href="/">
           {theme ? (
