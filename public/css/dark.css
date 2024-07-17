@@ -147,6 +147,7 @@ header.particles.circle-bg.valign {
   }
 }
 .header-card {
+  display: flex;
   position: relative; /* For pseudo-element positioning */
   width: 70%;
   margin-top: 30px;
@@ -215,6 +216,7 @@ header.particles.circle-bg.valign {
   font-size: 19px;
   line-height: 1.4;
   font-weight: 500;
+  color: rgb(164, 164, 164);
 }
 .card-button {
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
@@ -275,8 +277,10 @@ header.particles.circle-bg.valign {
   width: 15px;
 }
 
+
 @media (max-width: 550px) {
   .header-card {
+    display: flex !important;
     padding: 20px !important ;
     margin-top: 0px;
     width: 95%;
@@ -308,6 +312,7 @@ header.particles.circle-bg.valign {
   }
   .header-card p {
     font-size: 12px;
+    color: rgb(164, 164, 164);
   }
   .footer-card {
     width: 80%;
@@ -315,15 +320,23 @@ header.particles.circle-bg.valign {
 }
 @media (max-width: 500px) {
   .header-card {
+    display: flex !important;
     padding: 20px;
     margin-top: 0px;
     width: 90%;
   }
   .header-card p {
     font-size: 12px;
+    color: rgb(164, 164, 164);
   }
   .card-button {
     padding: 10px 20px;
+  }
+}
+
+@media (max-height: 740px) {
+  .header-card {
+    display: none ;
   }
 }
 

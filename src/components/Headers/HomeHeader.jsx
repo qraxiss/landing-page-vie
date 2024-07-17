@@ -36,19 +36,22 @@ const Header4 = ({ sliderRef, blackStar }) => {
               </h1>
             </div>
           </div>
-          <div className="header-card d-flex flex-column justify-content-center align-items-center">
-            <p style={{marginTop: 4, paddingBlock: 10 }}>
-              We are launching the Shopcek Earniverse as an exciting Telegram mini-app <br /> to reward our community before our <br /> e-commerce
-              platform goes live and our token is listed on tier-1 exchanges.
+          <div className="header-card  flex-column justify-content-center align-items-center">
+            <p style={{ marginTop: 4, paddingBlock: 10 }}>
+              We are launching the Shopcek Earniverse as an exciting Telegram
+              mini-app <br /> to reward our community before our <br />{" "}
+              e-commerce platform goes live and our token is listed on tier-1
+              exchanges.
             </p>
-            <p style={{marginTop: 12 }}>
-            Dive into the fun, stay engaged and unlock awesome rewards
+            <p style={{ marginTop: 12 }}>
+              Dive into the fun, stay engaged and unlock awesome rewards
             </p>
+
             <button className="card-button mb-3 sm:mb-0"> Start Earning</button>
           </div>
           <div className="footer-card d-flex flex-column justify-content-center align-items-center">
             <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400 }}>
-            Shopcek © 2024
+              Shopcek © 2024
             </p>
           </div>
         </div>
