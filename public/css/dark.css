@@ -334,7 +334,7 @@ header.particles.circle-bg.valign {
   }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 700px) {
   .header-card {
     display: none ;
   }
