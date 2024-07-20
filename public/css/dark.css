@@ -334,9 +334,15 @@ header.particles.circle-bg.valign {
   }
 }
 
-@media (max-height: 680px) {
+@media (max-height: 660px) {
   .header-card {
-    display: none ;
+    display: none;
+  }
+}
+
+@media (max-height: 740px) {
+  .header-card p{
+    font-size: 14px;
   }
 }
 

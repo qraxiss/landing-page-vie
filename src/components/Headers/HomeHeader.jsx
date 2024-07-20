@@ -47,7 +47,11 @@ const Header4 = ({ sliderRef, blackStar }) => {
               Dive into the fun, stay engaged and unlock awesome rewards
             </p>
 
-            <button className="card-button mb-3 sm:mb-0"> Start Earning</button>
+            <a href="https://t.me/shopcekbot/start">
+              <button className="card-button mb-3 sm:mb-0">
+                Start Earning
+              </button>
+            </a>
           </div>
           <div className="footer-card d-flex flex-column justify-content-center align-items-center">
             <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400 }}>
