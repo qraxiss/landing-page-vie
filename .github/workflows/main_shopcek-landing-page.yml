@@ -23,8 +23,8 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://qraxiss.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_0c56ef9ce13f4775b19dd8696bcfbb27 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_4fb4b523e6f242499cf7472162e3446d }}
+        username: ${{ secrets.AZUREAPPSERVICE_CONTAINERPASSWORD }}
+        password: ${{ secrets.AZUREAPPSERVICE_CONTAINERUSERNAME }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
