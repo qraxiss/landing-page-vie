@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: qraxiss.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_0c56ef9ce13f4775b19dd8696bcfbb27 }}/landing-page:${{ github.sha }}
+        tags: qraxiss.azurecr.io/${{ secrets.AZUREAPPSERVICE_CONTAINERPASSWORD }}/landing-page:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'shopcek-landing-page'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1938bb5beef144ee9a717cb1d73ea3ca }}
-        images: 'qraxiss.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_0c56ef9ce13f4775b19dd8696bcfbb27 }}/landing-page:${{ github.sha }}'
+        images: 'qraxiss.azurecr.io/${{ secrets.AZUREAPPSERVICE_CONTAINERPASSWORD }}/landing-page:${{ github.sha }}'
