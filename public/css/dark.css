@@ -9659,8 +9659,12 @@ section.next-prog.section-padding {
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    text-align: center;
-    height: 150px !important;
+    text-align: center !important;
+    height: 120px !important;
     padding: 0 !important;
+    
+  }
+  p {
+    text-align: center !important;
   }
 }
