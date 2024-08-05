@@ -9651,3 +9651,16 @@ section.next-prog.section-padding {
     padding: 0;
   }
 }
+
+/* Custom styles for mobile devices */
+@media (max-width: 576px) {
+  .mobile-height {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    height: 150px !important;
+    padding: 0 !important;
+  }
+}
