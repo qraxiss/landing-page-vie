@@ -53,11 +53,36 @@ const Header4 = ({ sliderRef, blackStar }) => {
               </button>
             </a>
           </div>
-          <div className="footer-card d-flex flex-column justify-content-center align-items-center">
-            <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400 }}>
-              Shopcek © 2024
-            </p>
+          <div className="footer-card">
+            <div className="container">
+              <div className="row mobile-height">
+                {/* Left section */}
+                <div className="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center order-1 order-md-1">
+                  <p style={{ fontSize: 9, opacity: 0.5, fontWeight: 400, textAlign: "justify" }}>
+                    Company: Shopcek International S.R.O.<br />
+                    Address: 8A Nové sady, Brno, 64 - Czechia <br className="br-mobile" /> Postal Code: 602 00
+                  </p>
+                </div>
+
+                {/* Center section (footer) */}
+                <div className="col-12 col-md-4 text-center order-3 order-md-2 justify-content-start align-items-center">
+                  <p style={{ fontSize: 14, opacity: 0.5, fontWeight: 400 }}>
+                    Shopcek © 2024
+                  </p>
+                </div>
+
+                {/* Right section */}
+                <div className="col-12 col-md-4 d-flex flex-column justify-content-start align-items-center align-items-md-end order-2 order-md-3">
+                  <p style={{ fontSize: 9, opacity: 0.5, fontWeight: 400 }}>
+                    Identification Number: 179 19 100<br />
+                    Contact Info: info@shopcek.com
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+
+
         </div>
       </div>
 

@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://qraxiss.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_0c56ef9ce13f4775b19dd8696bcfbb27 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_4fb4b523e6f242499cf7472162e3446d }}
+        username: ${{ secrets.AZUREAPPSERVICE_CONTAINERUSERNAME }}
+        password: ${{ secrets.AZUREAPPSERVICE_CONTAINERPASSWORD }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: qraxiss.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_0c56ef9ce13f4775b19dd8696bcfbb27 }}/landing-page:${{ github.sha }}
+        tags: qraxiss.azurecr.io/${{ secrets.AZUREAPPSERVICE_CONTAINERUSERNAME }}/landing-page:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'shopcek-landing-page'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1938bb5beef144ee9a717cb1d73ea3ca }}
-        images: 'qraxiss.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_0c56ef9ce13f4775b19dd8696bcfbb27 }}/landing-page:${{ github.sha }}'
+        publish-profile: '${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}'
+        images: 'qraxiss.azurecr.io/${{ secrets.AZUREAPPSERVICE_CONTAINERUSERNAME }}/landing-page:${{ github.sha }}'
