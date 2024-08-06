@@ -3,9 +3,7 @@ const path = require("path");
 
 const nextConfig = {
   output: 'export',
-  reactStrictMode: true,
-  distDir: 'build',
-  output: 'standalone',
+  reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
   },
