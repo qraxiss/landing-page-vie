@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'shopcek-landing-page'
         slot-name: 'production'
-        publish-profile: 'c3f4ecec-5c92-4444-b213-d0ef9e61a851'
-        images: 'qraxiss.azurecr.io/qraxiss/landing-page:${{ github.sha }}'
+        publish-profile: '${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}'
+        images: 'qraxiss.azurecr.io/${{ secrets.AZUREAPPSERVICE_CONTAINERUSERNAME }}/landing-page:${{ github.sha }}'
